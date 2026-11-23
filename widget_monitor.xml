@@ -1,0 +1,9 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="widgetRoot" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="12dp" android:background="#E6F2E9">
+    <View android:id="accentStrip" android:layout_width="match_parent" android:layout_height="3dp" android:background="#39805D" />
+    <TextView android:id="widgetModel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Device" android:textColor="#343640" android:textSize="16sp" android:textStyle="bold" />
+    <TextView android:id="widgetSoc" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="SoC" android:textColor="#555761" android:textSize="12sp" />
+    <TextView android:id="widgetStats" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="CPU · RAM · Battery" android:textColor="#343640" android:textSize="13sp" android:paddingTop="6dp" />
+    <TextView android:id="widgetStorage" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Storage" android:textColor="#343640" android:textSize="12sp" android:paddingTop="3dp" />
+</LinearLayout>
